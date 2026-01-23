@@ -1,8 +1,8 @@
-number = int(input())
+x = int(input())
 
 total = 0
 
-for i in range(number+1):
+for i in range(x+1):
     total += i*i
 
 print(total)
